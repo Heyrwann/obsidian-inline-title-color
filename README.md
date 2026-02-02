@@ -24,7 +24,7 @@ Vous pouvez activer le title inline dans Paramètres > Apparence > Interface > "
 ### Installation manuelle
 
 1. Téléchargez les derniers fichiers depuis la [page des releases](../../releases)
-2. Créez un dossier nommé `inline-title-color` dans votre vault Obsidian : `[Vault]/.obsidian/plugins/inline-title-color/`
+2. Créez un dossier nommé `obsidian-inline-title-color` dans votre vault Obsidian : `[Vault]/.obsidian/plugins/obsidian-inline-title-color/`
 3. Copiez les fichiers `main.js` et `manifest.json` dans ce dossier
 4. Redémarrez Obsidian
 5. Activez le plugin dans : Paramètres → Plugins communautaires
@@ -35,8 +35,8 @@ Vous pouvez activer le title inline dans Paramètres > Apparence > Interface > "
 
 ```bash
 cd [Vault]/.obsidian/plugins/
-git clone https://github.com/heyrwann/inline-title-color.git
-cd inline-title-color
+git clone https://github.com/heyrwann/obsidian-inline-title-color.git
+cd obsidian-inline-title-color
 ```
 
 2. Installez les dépendances et compilez :
@@ -144,7 +144,7 @@ npm run build
 ### Structure du projet
 
 ```
-inline-title-color/
+obsidian-inline-title-color/
 ├── main.ts              # Code source principal
 ├── manifest.json        # Métadonnées du plugin
 ├── package.json         # Dépendances npm
