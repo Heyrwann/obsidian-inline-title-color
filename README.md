@@ -32,6 +32,7 @@ Vous pouvez activer le title inline dans Paramètres > Apparence > Interface > "
 ### Installation depuis le code source
 
 1. Clonez ce dépôt dans votre dossier de plugins :
+
 ```bash
 cd [Vault]/.obsidian/plugins/
 git clone https://github.com/heyrwann/inline-title-color.git
@@ -39,6 +40,7 @@ cd inline-title-color
 ```
 
 2. Installez les dépendances et compilez :
+
 ```bash
 npm install
 npm run build
@@ -61,18 +63,21 @@ inline-title-color: "#ff6b6b"
 Le plugin accepte tous les formats de couleur CSS valides :
 
 **Hexadécimal :**
+
 ```yaml
 inline-title-color: "#ff6b6b"
 inline-title-color: "#f00"
 ```
 
 **RGB / RGBA :**
+
 ```yaml
 inline-title-color: "rgb(255, 107, 107)"
 inline-title-color: "rgba(255, 107, 107, 0.8)"
 ```
 
 **Noms de couleurs CSS :**
+
 ```yaml
 inline-title-color: "crimson"
 inline-title-color: "dodgerblue"
@@ -82,29 +87,29 @@ inline-title-color: "forestgreen"
 ## Exemples
 
 ### Exemple 1 : Note avec titre rouge
+
 ```yaml
 ---
 inline-title-color: "#e74c3c"
 ---
-
 # Ma note importante
 ```
 
 ### Exemple 2 : Note avec titre bleu
+
 ```yaml
 ---
 inline-title-color: "dodgerblue"
 ---
-
 # Documentation technique
 ```
 
 ### Exemple 3 : Note avec titre personnalisé RGBA
+
 ```yaml
 ---
 inline-title-color: "rgba(156, 89, 209, 0.9)"
 ---
-
 # Projet créatif
 ```
 
@@ -119,16 +124,19 @@ inline-title-color: "rgba(156, 89, 209, 0.9)"
 
 1. Clonez le dépôt
 2. Installez les dépendances :
+
 ```bash
 npm install
 ```
 
 3. Lancez le mode développement (compilation automatique) :
+
 ```bash
 npm run dev
 ```
 
 4. Pour créer une version de production :
+
 ```bash
 npm run build
 ```
@@ -145,19 +153,10 @@ inline-title-color/
 └── README.md            # Documentation
 ```
 
-## Contribution
-
-Les contributions sont les bienvenues ! N'hésitez pas à :
-
-1. Forker le projet
-2. Créer une branche pour votre fonctionnalité (`git checkout -b feature/SuperFeature`)
-3. Commiter vos changements (`git commit -m 'Add some SuperFeature'`)
-4. Pusher vers la branche (`git push origin feature/SuperFeature`)
-5. Ouvrir une Pull Request
-
 ## Signaler un bug
 
 Si vous rencontrez un problème, veuillez ouvrir une [issue](../../issues) avec :
+
 - Une description claire du problème
 - Les étapes pour le reproduire
 - Votre version d'Obsidian
