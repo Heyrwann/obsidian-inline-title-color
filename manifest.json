@@ -4,6 +4,6 @@
   "version": "1.0.0",
   "minAppVersion": "0.15.0",
   "description": "Colore le titre inline en fonction d'une propriété YAML",
-  "author": "Votre Nom",
+  "author": "Heyrwann",
   "isDesktopOnly": false
 }
