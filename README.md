@@ -29,25 +29,6 @@ Vous pouvez activer le title inline dans Paramètres > Apparence > Interface > "
 4. Redémarrez Obsidian
 5. Activez le plugin dans : Paramètres → Plugins communautaires
 
-### Installation depuis le code source
-
-1. Clonez ce dépôt dans votre dossier de plugins :
-
-```bash
-cd [Vault]/.obsidian/plugins/
-git clone https://github.com/heyrwann/obsidian-inline-title-color.git
-cd obsidian-inline-title-color
-```
-
-2. Installez les dépendances et compilez :
-
-```bash
-npm install
-npm run build
-```
-
-3. Redémarrez Obsidian et activez le plugin
-
 ## Utilisation
 
 Ajoutez simplement la propriété `inline-title-color` dans le frontmatter YAML de votre note :
